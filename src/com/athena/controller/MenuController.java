@@ -16,7 +16,7 @@ public class MenuController {
 	/**
 	 * springmvc容器调用spring容器中内容
 	 */
-	@Resource
+	@Resource 
 	private MenuService menuServiceImpl;
 	
 	@RequestMapping("show")
